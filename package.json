@@ -1,6 +1,26 @@
 {
-  "dependencies": {
-    "express": "^4.17.3",
-    "node.js": "^0.0.1-security"
-  }
+    "name": "restlss",
+    "version": "2.0.2",
+    "description": "Simple site to host my list of favorite Youtube videos and Websites",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node server.js",
+        "dev": "nodemon server.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/crc64error/restlss.git"
+    },
+    "keywords": [],
+    "author": "Carey S. Turner",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/crc64error/restlss/issues"
+    },
+    "homepage": "https://github.com/crc64error/restlss#readme",
+    "dependencies": {
+        "nodemon": "^2.0.15",
+        "uuid": "^8.3.2"
+    }
 }
